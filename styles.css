@@ -1,0 +1,67 @@
+body {
+margin: 50px 20% 50px 20%;
+background-color: rgb(74, 159, 213);
+}
+* {
+  box-sizing: border-box;
+}
+
+ul.Ordnungen {
+  position:sticky;
+  float:right;
+  top:0;
+  background-color: rgb(124, 209, 255);
+  border-radius: 30px;
+  opacity: 0.9;
+  padding: 40px;
+  text-align: center;
+}
+
+.columninsecta {
+  float: left;
+  width: 50%;
+  padding: 5px;
+
+}
+
+.rowinsecta::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+#insecta {
+  width:28vw;
+  height:20vw;
+  margin-left:30px;
+}
+
+.column {
+  float: left;
+  width: 33.33%;
+  padding: 5px;
+  text-align: center;
+}
+
+/* Clearfix (clear floats) */
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+img {
+  width:250px;
+  height:150px;
+  margin-left:30px
+}
+
+h1 {
+  text-align: center;
+}
+
+#Menu li {
+  font-size: 18px;
+  line-height: 20px;
+  padding-bottom: 20px;
+}
